@@ -11,14 +11,14 @@
     <link rel="stylesheet" href="style/css.css">
 </head>
 <body>
-    
+  <button class="free" id="arrowUP"><i class=" bi bi-arrow-up"></i></button>
 <section class="sec0">
     <nav class="navbar  navbar-expand-lg">
       <div class="container distance">
         <a class="navbar-brand" href="index.html"><img src="img/logo1.svg" alt=""></a>
       <div class="btns1">
-        <button type="button" class="default">
-          <p><i class="bi bi-cart"></i></p>
+        <button type="button" class="default icon-cart">
+            <i class="bi bi-cart"></i>
             <p class="edit"><span>0</span></p>
         </button>
         <button type="button">
@@ -85,8 +85,23 @@
         </div>
       </nav>
       </div>
-      
       </header>
+       <!-- sidebar Section -->
+  <div class="cartTap">
+    <h1>عملية الشراء</h1>
+    <div class="listCart">
+
+    </div>
+    <div class="btn1">
+      <div class="sidebar--footer">
+        <button class="close">الخروج</button>
+        <div class="total--amount">
+          <h5>المجموع</h5>
+          <div class="cart-total">0.00ر.س</div>
+        </div>
+      </div>
+    </div>
+  </div>
       <section class="sec1">
         <div class="container">
           <div class="d-flex align-items-center flex-column flex-lg-row">
@@ -228,10 +243,12 @@
                 </div>
                 </div>
                 <div class="pt-3 resource">
-                  <!-- change that -->
+                  <div class="gradient-border">
+                    <i class="bi bi-arrow-down-short"></i>
                 <select>
                   <option value="" disabled selected>اختار المبلغ المراد التبرع به</option>
                 </select>
+                  </div>
                 <div class="reward">
                   <span>-</span>
                   <h3>100 ر.س</h3>
@@ -240,12 +257,12 @@
               </div>
               <div class="donate pt-4">
                 <button type="button">
-                  <div class="d-flex gap-2">
+                  <div class="d-flex gap-2 gap-md-1 gap-lg-2">
                     <div class="position-relative">
                     <img src="img/shop_12574922.svg" alt="">
-                    <span class="edit1"><p>0</p></span>
+                    <span class="edit1"><p class="one">0</p></span>
                   </div>
-                  <p>تبرع سريع (100 ر.س)</p>
+                  <p><span>تبرع سريع</span> (100 ر.س)</p>
                 </div>
                 </button>
                 <a href="#">أعرض المزيد من التفاصيل</a>
@@ -274,10 +291,12 @@
                 </div>
                 </div>
                 <div class="pt-3 resource">
-                  <!-- change that -->
+                  <div class="gradient-border">
+                    <i class="bi bi-arrow-down-short"></i>
                 <select>
                   <option value="" disabled selected>اختار المبلغ المراد التبرع به</option>
                 </select>
+                  </div>
                 <div class="reward">
                   <span>-</span>
                   <h3>100 ر.س</h3>
@@ -286,10 +305,10 @@
               </div>
               <div class="donate pt-4">
                 <button type="button">
-                  <div class="d-flex gap-2">
+                  <div class="d-flex gap-2 gap-md-1 gap-lg-2">
                     <div class="position-relative">
                     <img src="img/shop_12574922.svg" alt="">
-                    <span class="edit1"><p>0</p></span>
+                    <span class="edit1"><p class="two">0</p></span>
                   </div>
                   <p>تبرع سريع (100 ر.س)</p>
                 </div>
@@ -320,10 +339,12 @@
                 </div>
                 </div>
                 <div class="pt-3 resource">
-                  <!-- change that -->
+                  <div class="gradient-border">
+                    <i class="bi bi-arrow-down-short"></i>
                 <select>
                   <option value="" disabled selected>اختار المبلغ المراد التبرع به</option>
                 </select>
+                  </div>
                 <div class="reward">
                   <span>-</span>
                   <h3>100 ر.س</h3>
@@ -332,10 +353,10 @@
               </div>
               <div class="donate pt-4">
                 <button type="button">
-                  <div class="d-flex gap-2">
+                  <div class="d-flex gap-2 gap-md-1 gap-lg-2">
                     <div class="position-relative">
                     <img src="img/shop_12574922.svg" alt="">
-                    <span class="edit1"><p>0</p></span>
+                    <span class="edit1"><p class="three">0</p></span>
                   </div>
                   <p>تبرع سريع (100 ر.س)</p>
                 </div>
@@ -542,8 +563,8 @@
         </div>
       </section>
         <div class=" py-4 ">
-        <div class="swiper  myswiper container">
-          <div class="swiper-wrapper">
+        <div class="swiper  myswiper ">
+          <div class="swiper-wrapper ">
               <div class="swiper-slide ">
           <div class="bark">
             <div class="rafek">
